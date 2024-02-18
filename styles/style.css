@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: hsl(0, 0%, 15%);
+    position: relative;
+    top: 50px; left: 50px;
+}
+
+input {
+    margin-bottom: 16px;
+}
+
+span {
+    margin-left: 16px;
+    color: hsl(174, 72%, 56%);
+}
+
+table {
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: hsla(174, 72%, 56%, 0.300);
+}
+
+td {
+    padding: 4px;
+}
